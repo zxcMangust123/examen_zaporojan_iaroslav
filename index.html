@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egzamen Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .gallery a {
+            display: block;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery a:hover {
+            transform: scale(1.05);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Galerie de Screenshots</h1>
+
+    <div class="gallery">
+        <a href="screenshot_1.png" target="_blank"><img src="screenshot_1.png" alt="screenshot 1"></a>
+        <a href="screenshot_2.png" target="_blank"><img src="screenshot_2.png" alt="screenshot 2"></a>
+        <a href="screenshot_3.png" target="_blank"><img src="screenshot_3.png" alt="screenshot 3"></a>
+        <a href="screenshot_4.png" target="_blank"><img src="screenshot_4.png" alt="screenshot 4"></a>
+        <a href="screenshot_5.png" target="_blank"><img src="screenshot_5.png" alt="screenshot 5"></a>
+        <a href="screenshot_6.png" target="_blank"><img src="screenshot_6.png" alt="screenshot 6"></a>
+        <a href="screenshot_7.png" target="_blank"><img src="screenshot_7.png" alt="screenshot 7"></a>
+    </div>
+
+</body>
+</html>
